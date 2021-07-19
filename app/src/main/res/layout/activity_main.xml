@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:layout_marginTop="5dp"
+              android:weightSum="3">
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="0dp"
+                      android:orientation="horizontal"
+                      android:gravity="center"
+                      android:weightSum="2"
+                        android:layout_weight="1">
+                <Button
+                        android:text="Registration"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/add_registration"
+                        android:onClick="registration"
+                        android:layout_weight="1"
+                        />
+                <Button
+                        android:text="syllabus"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/syllabus"
+                        android:layout_weight="1"/>
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="0dp"
+                      android:layout_weight="1"
+                      android:orientation="horizontal"
+                      android:gravity="center"
+                      android:weightSum="2">
+                <Button
+                        android:text="Placement"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/placement"
+                        android:layout_weight="1"/>
+                <Button
+                        android:text="Gallery"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/gallery"
+                        android:layout_weight="1"/>
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="0dp"
+                      android:orientation="horizontal"
+                      android:gravity="center"
+                      android:layout_weight="1"
+                      android:weightSum="2">
+                <Button
+                        android:text="Feedback"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/feedback"
+                        android:layout_weight="1"/>
+                <Button
+                        android:text="faculty"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:id="@+id/faculty"
+                        android:layout_weight="1"/>
+        </LinearLayout>
+
+</LinearLayout>
